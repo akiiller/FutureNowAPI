@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Future Now</string>
+    <string name="music_tab">Music</string>
+    <string name="videos_tab">Videos</string>
+    <string name="podcasts_tab">Podcasts</string>
+</resources>
