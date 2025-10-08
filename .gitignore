@@ -27,6 +27,7 @@ obj/
 *.dex
 *.class
 
+
 # Android Studio
 AndroidApp/.idea/
 AndroidApp/.gradle/
@@ -44,9 +45,68 @@ gradlew.bat
 .DS_Store
 Thumbs.db
 
-# Replit
-.replit
-replit.nix
+
 .config/
 .cache/
 .upm/
+
+# ===============================================
+# Arquivos gerados pelo sistema de Build (Gradle)
+# ===============================================
+# Esta é a pasta mais importante a ser ignorada. Contém todos os arquivos compilados.
+/build
+# Contém caches e arquivos de trabalho do Gradle específicos deste projeto.
+/.gradle
+# Arquivos APK e AAB gerados.
+*.apk
+*.aab
+
+# ===============================================
+# Arquivos específicos do ambiente local
+# ===============================================
+# Contém o caminho para o Android SDK na sua máquina. Cada usuário terá o seu.
+local.properties
+
+# ===============================================
+# Arquivos de configuração do IDE (Android Studio / IntelliJ)
+# ===============================================
+# Pasta de configurações do IDE. Contém seu histórico local, configurações de janela, etc.
+/.idea
+# Arquivos de módulo do IntelliJ. São gerados automaticamente.
+*.iml
+# Arquivos de workspace do IntelliJ.
+*.ipr
+*.iws
+
+# ===============================================
+# Arquivos e pastas do sistema operacional
+# ===============================================
+# Arquivos de sistema do macOS
+.DS_Store
+# Arquivos de thumbnail do Windows
+Thumbs.db
+
+# ===============================================
+# Arquivos de log e caches diversos
+# ===============================================
+# Capturas de tela e vídeos do emulador
+captures/
+# Relatórios de build e testes
+*.log
+# Caches do Android NDK (para código C++)
+/app/.cxx/
+
+# ===============================================
+# Arquivos sensíveis e de assinatura - NUNCA ENVIE!
+# ===============================================
+# Arquivos Keystore que provam a autoria do seu app.
+*.jks
+*.keystore
+
+# Chaves privadas e segredos de API.
+# É uma boa prática não colocar chaves de API diretamente no código,
+# mas se estiverem em arquivos, eles devem ser ignorados.
+secrets.properties
+signing.properties
+
+
